@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Pagina_inscrever.css">
+    <link rel="stylesheet" href="../Css/Header.css">
+    <link rel="icon" href="../Imagens/Hk icon.png">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="Header_sup">
+            <div class="header_lado">
+                <a href="Pagina_inscrever.html" class="Cadastrar">Cadastrar</a>
+                <img src="../Imagens/Avatar_icon2.jpg" alt="Icon">
+            </div>
+        </div>
+        <nav>
+            <a href="Pagina_inicial.html">Pagina_inicial</a>
+            <a href="Pagina2.html">Recordes</a>
+            <a href="Pagina_inscrever.html">Inscrever-se</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="titulo">
+                <h1>Inscrever-se</h1>
+            </div>
+            <form action="/Login_auth" class="" method="post" name="form">
+
+                <div class="input">
+                    <input type="text" required>
+                    <label>Nome</label>
+                </div>
+
+                <div class="input">
+                    <input type="email" required>
+                    <label>E-mail</label>
+                </div>
+
+                <div class="input data">
+                    <input type="date" required>
+                    <label>Data de nascimento</label>
+                </div>
+
+                <label class="sexo">Sexo</label>
+
+                <div class="radio">
+                    <div class="sexo">
+                        <label>Masculino</label>
+                        <input type="radio" name="Sexo">
+                    </div>
+                    <div class="sexo">
+                        <label>Femininio</label>
+                        <input type="radio" name="Sexo">
+                    </div>
+                </div>
+
+                <label class="textarea_label">Por que quer entrar para o fã-clube?</label>
+                <textarea name="Motivo" id="#"></textarea>
+
+                <div class="checkbox">
+                    <div class="checkbox_confirmar">
+                        <label>Desejo participar</label>
+                        <input type="checkbox" name="Confirmar">
+                    </div>
+                </div>
+
+                <div class="botoes">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>copyright © ADS2025</p>
+    </footer>
+</body>
+
+</html>

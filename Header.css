@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    background-color: #1f1f1fbe;
+    backdrop-filter: blur(5px);
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    text-decoration: dashed;
+    text-align: center;
+}
+
+.Header_sup {
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+
+}
+
+.Header_sup img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+}
+
+.Cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #000000;
+    border: 2px solid black;
+    text-decoration: none;
+    
+}
+.Cadastrar:hover{
+
+    background-color: rgba(255, 255, 255, 0.781);
+    color: #000000;
+    cursor: pointer;
+}
+
+.header_lado{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    transition: 0.2s;
+
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.781);
+    color: #000000;
+    cursor: pointer;
+    padding: 0 50px;
+    margin: 0 -20px;
+
+}
